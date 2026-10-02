@@ -1,5 +1,6 @@
 import { spawn } from 'node:child_process';
 import fs from 'node:fs/promises';
+import os from 'node:os';
 import path from 'node:path';
 import { DescendantTracker } from './collectors/processes.js';
 import { countBySeverity, diffSnapshots } from './diff.js';
@@ -58,7 +59,7 @@ export async function runWrapped(opts, argv, run = {}) {
       process.stderr.write(`sidetrace: cannot run "${argv[0]}": ${err.message}\n`);
       resolve(127);
     });
-    child.on('close', (code, signal) => resolve(code ?? (signal ? 128 : 1)));
+    child.on('close', (code, signal) => resolve(code ?? (signal ? 128 + (os.constants.signals[signal] ?? 0) : 1)));
   });
   process.off('SIGINT', ignoreSigint);
   const leftover = tracker ? await tracker.stop() : [];
