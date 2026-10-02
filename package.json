@@ -1,0 +1,56 @@
+{
+  "name": "sidetrace",
+  "version": "0.1.0",
+  "description": "Run any command, get a receipt of what it changed on your machine outside the project: shell rc files, LaunchAgents, credentials, agent hooks, listeners, leftover processes.",
+  "type": "module",
+  "bin": {
+    "sidetrace": "bin/sidetrace.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src",
+    "examples",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run lint && npm run typecheck && npm test",
+    "demo": "node bin/sidetrace.js demo",
+    "render:demo": "node scripts/render-demo-svg.js"
+  },
+  "keywords": [
+    "cli",
+    "security",
+    "audit",
+    "ai-agents",
+    "coding-agents",
+    "developer-tools",
+    "side-effects",
+    "dotfiles",
+    "supply-chain"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nithinfgs/sidetrace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nithinfgs/sidetrace/issues"
+  },
+  "homepage": "https://github.com/Nithinfgs/sidetrace#readme",
+  "author": "Nithinfgs",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@types/node": "^22.0.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "typescript": "^5.6.0"
+  }
+}
