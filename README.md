@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/Nithinfgs/sidetrace/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Nithinfgs/sidetrace/actions/workflows/ci.yml/badge.svg"></a>
   <img alt="license: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg">
-  <img alt="node >=20" src="https://img.shields.io/badge/node-%3E%3D20-339933.svg">
+  <img alt="node 20 or newer" src="https://img.shields.io/badge/node-%3E%3D20-339933.svg">
   <img alt="zero dependencies" src="https://img.shields.io/badge/runtime%20deps-0-brightgreen.svg">
 </p>
 
