@@ -31,7 +31,7 @@ It is a **receipt, not a sandbox**: it tells you what changed. It does not stop 
 
 ## Why this exists
 
-Coding agents made "run a command I didn't write" a hundred-times-a-day event, and the usual advice
+Coding agents made "run a command I didn't write" a routine event, and the usual advice
 is to read the diff. A git diff only covers the repository. The things that outlive a session live
 outside it, and they are exactly the things that persist: shell startup files, login items, SSH
 keys, agent hooks and MCP servers that execute on every tool call.

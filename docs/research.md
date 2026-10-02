@@ -62,8 +62,8 @@ and crowded niches where the fifth tool adds nothing.
 ## Why sidetrace
 
 - **Real, current problem.** Running code you did not write is now routine, and the existing
-  tooling is either a sandbox (prevent) or a pre-install scanner (guess). Nothing common answers
-  "what did it do?" for an arbitrary command.
+  tooling is either a sandbox (prevent) or a pre-install scanner (guess). I did not find a common tool that
+  answers "what did it do?" for an arbitrary command (this is from a limited search, not an exhaustive one).
 - **Works on day one.** No account, no API key, no model, no daemon. `npx ... demo` shows value
   in seconds, and `run -- <anything>` works on a real machine immediately.
 - **Honest scope.** Compare known locations before and after. Easy to reason about, easy to extend
